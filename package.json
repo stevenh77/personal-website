@@ -14,7 +14,7 @@
    "author": "Steven Hollidge",  
    "license": "MIT",
    "devDependencies": {
-     "eslint": "^2.8.0", 
-     "lite-server": "^2.0.0" 
+     "eslint": "^3.18.0", 
+     "lite-server": "^2.3.0" 
    } 
 }
