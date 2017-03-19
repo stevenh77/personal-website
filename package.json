@@ -1,7 +1,7 @@
 { 
    "name": "personal-website", 
    "version": "1.0.1", 
-   "description": "My personal website as a full stack programmer.", 
+   "description": "My personal website as a full stack developer.", 
    "scripts": { 
      "lite": "lite-server --baseDir ./src --port 3333", 
      "start": "npm run lite",
