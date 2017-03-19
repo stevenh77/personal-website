@@ -1,6 +1,6 @@
 { 
    "name": "personal-website", 
-   "version": "1.0.0", 
+   "version": "1.0.1", 
    "description": "My personal website as a full stack programmer.", 
    "scripts": { 
      "lite": "lite-server --baseDir ./src --port 3333", 
@@ -14,7 +14,7 @@
    "author": "Steven Hollidge",  
    "license": "MIT",
    "devDependencies": {
-     "eslint": "^2.8.0", 
+     "eslint": "^3.18.0", 
      "lite-server": "^2.3.0" 
    } 
 }
