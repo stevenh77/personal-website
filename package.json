@@ -1,0 +1,20 @@
+{ 
+   "name": "personal-website", 
+   "version": "1.0.0", 
+   "description": "My personal website as a full stack programmer.", 
+   "scripts": { 
+     "lite": "lite-server --baseDir ./src --port 3333", 
+     "start": "npm run lite",
+     "test": "eslint *.js"
+   },
+   "repository": {
+     "type": "git",
+     "url": "git+https://github.com/stevenh77/personal-website.git"
+   },
+   "author": "Steven Hollidge",  
+   "license": "MIT",
+   "devDependencies": {
+     "eslint": "^2.8.0", 
+     "lite-server": "^2.0.0" 
+   } 
+}
