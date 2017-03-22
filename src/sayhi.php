@@ -6,9 +6,11 @@
 		if (!isset($_POST['Message']) or $_POST['Message'] === '') exit('Message not set');
 
 		$to = 'contractor@stevenhollidge.co.uk';
-		$subject = 'From contact page: ' .$_POST['Name'];
+		$subject = 'Website message from: ' .$_POST['Name'];
 		$message = $_POST['Message'];
-		$headers = 'From: '.$_POST['Email'].PHP_EOL;
+		$headers = 'From: hello@stevenhollidge.co.uk' . "\r\n" .
+    				'Reply-To: '.$_POST['Email']. "\r\n" .
+					'X-Mailer: PHP/' . phpversion() .PHP_EOL;
 
 		if (mail($to, $subject, $message, $headers)) 
 		{
