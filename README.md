@@ -8,6 +8,9 @@ My personal website as a full stack programmer.
 [![Build Status](https://travis-ci.org/stevenh77/personal-website.svg?branch=master)](https://travis-ci.org/stevenh77/personal-website)
 [![Open Source Love](https://badges.frapsoft.com/os/mit/mit.svg?v=102)](https://github.com/ellerbrock/open-source-badge/)
 
+## Live demo
+[http://stevenhollidge.co.uk/](http://stevenhollidge.co.uk/)
+
 ## Installation and Usage
 
 The recommended installation method is a local NPM install for your project:
