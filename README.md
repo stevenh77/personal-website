@@ -18,3 +18,5 @@ $ npm start
 ```
 
 A browser window will then open and load the website.
+
+![alt text](https://github.com/stevenh77/personal-website/raw/master/src/assets/images/homepage.png "Personal website homepage")
